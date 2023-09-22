@@ -23,7 +23,8 @@ main {
     box-shadow: 0 0 50px 5px hsla(217, 45%, 22%, 0.152);
 }
 
-.component h2 {
+h1 {
+    font-size: 1.5rem;
     color: hsl(218, 44%, 22%);
 }
 
@@ -52,6 +53,6 @@ main {
 
 @media screen and (min-width: 725px) {
     .component {
-        width: 20%;
+        width: 21%;
     }
 }
