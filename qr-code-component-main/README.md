@@ -10,11 +10,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Author](#author)
 
 ### Screenshot
-![You can see original and my style in comparison.](https://www.frontendmentor.io/solutions/qrcodecomponentchallenge-I2dDH_LqXY)
+[You can see original and my style in comparison.](https://www.frontendmentor.io/solutions/qrcodecomponentchallenge-I2dDH_LqXY)
 
 ### Links
-- Solution URL: [Add solution URL here](https://github.com/turkerkiv/frontendmentor/tree/main/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://turkerkiv.github.io/frontendmentor/qr-code-component-main/)
+- Live Site URL: [Here](https://turkerkiv.github.io/frontendmentor/qr-code-component-main/)
 
 ### Built with
 - Flexbox
