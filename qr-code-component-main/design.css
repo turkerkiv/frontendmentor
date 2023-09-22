@@ -20,7 +20,7 @@ main {
     text-align: center;
     padding: 1em;
     border-radius: 1em;
-    box-shadow: 0 0 50px 5px hsla(219, 15%, 55%, 0.256);
+    box-shadow: 0 0 50px 5px hsla(217, 45%, 22%, 0.152);
 }
 
 .component * {
@@ -31,6 +31,7 @@ main {
 
 .component p {
     margin-top: -.7em;
+    color: hsl(220, 15%, 55%)
 }
 
 .component img {
@@ -47,6 +48,6 @@ main {
 
 @media screen and (min-width: 725px) {
     .component {
-        width: 19%;
+        width: 21%;
     }
 }
