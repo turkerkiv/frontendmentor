@@ -197,9 +197,11 @@ p {
 .btn-number {
     border-radius: 50%;
     border: none;
-    padding: 1.1em 1.35em 0.85em 1.35em;
+    font-size: .9em;
+    padding: 1.2em 1.45em 0.95em 1.45em;
     font-weight: 700;
-    transition: .25s;
+    transition: .15s;
+    cursor: pointer;
 }
 
 .btn-number.default {
@@ -212,10 +214,9 @@ p {
     color: white;
 }
 
-.btn-number:hover {
+.btn-number.hover {
     background-color: hsl(25, 97%, 53%);
     color: white;
-    cursor: pointer;
 }
 
 .btn-submit {

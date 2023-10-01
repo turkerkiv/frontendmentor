@@ -18,12 +18,25 @@ const resetAllNumberBtns = () => {
 const onClickingNumberBtn = function () {
     resetAllNumberBtns();
     this.classList.add("selected");
+    this.classList.remove("hover");
     rate = this.defaultValue;
 };
+
+const onMouseOver = function () {
+    if (this.classList.contains("selected")) return;
+
+    this.classList.add("hover");
+}
+
+const onMouseOut = function () {
+    this.classList.remove("hover");
+}
 
 for (const btn of numberButtons) {
     btn.classList.add("default");
     btn.addEventListener("click", onClickingNumberBtn);
+    btn.addEventListener("mouseover", onMouseOver);
+    btn.addEventListener("mouseout", onMouseOut);
 }
 
 const onClickingSubmitBtn = function () {
