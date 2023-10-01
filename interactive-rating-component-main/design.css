@@ -199,6 +199,7 @@ p {
     border: none;
     padding: 1.1em 1.35em 0.85em 1.35em;
     font-weight: 700;
+    transition: .25s;
 }
 
 .btn-number.default {
@@ -214,6 +215,7 @@ p {
 .btn-number:hover {
     background-color: hsl(25, 97%, 53%);
     color: white;
+    cursor: pointer;
 }
 
 .btn-submit {
@@ -231,6 +233,7 @@ p {
 .btn-submit:hover {
     background-color: white;
     color: var(--primary-color);
+    cursor: pointer;
 }
 
 .thank-you {
